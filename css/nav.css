@@ -1,0 +1,37 @@
+nav { display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; padding-top: 1%; } 
+nav>section:nth-child(2) { display: flex; } 
+nav>section:nth-child(2)>div { padding: 0 10px; } 
+nav>section:nth-child(3) { display: flex; align-items: center; } 
+nav>section:nth-child(3)>div { padding: 0 10px; } 
+
+.swoosh-svg { width: 5em; height: 5em; } 
+.mobile-nav { display: none; } 
+
+.heart-icon { padding: 5% 5% 0 0; transition: all 0.15s ease; } 
+ 
+ .heart-icon:before { content: "\f08a"; /* Font Awesome regular heart의 유니코드 */
+ font-family: 'Font Awesome 6 Free'; /* Font Awesome이 적용된 폰트 패밀리 */
+ font-weight: 400; /* Regular weight */ } 
+ 
+ .heart-icon:hover:before { content: "\f004"; /* Font Awesome solid heart의 유니코드 */
+ font-family: 'Font Awesome 6 Free'; font-weight: 900; /* Solid weight */ } 
+
+ 
+
+@media screen and (max-width:600px){
+ .pc-nav { display: none; } 
+ .mobile-nav { display: block; } 
+ .mobile-nav-container { display: flex; flex-direction: column; align-items: center; } 
+ .bottom-row { display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 5%; } 
+ .bottom-row>div { padding: 3px 10px; } 
+ }
+
+ /* search */
+ form { display: flex; align-items: center; } 
+ 
+ input[type="text"] { padding: 8px 8px 8px 18px; font-size: 16px; border: 1px solid #ccc; border-radius: 20px; margin-right: 8px; } 
+ 
+ button { padding: 9px 13px; background-color: #333; color: white; border: none; border-radius: 20px; cursor: pointer; } 
+ 
+ button:hover { background-color: #555; } 
+ 

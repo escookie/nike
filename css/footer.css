@@ -1,0 +1,19 @@
+
+footer>section:nth-child(1){ display: flex; justify-content: center; padding: 0 3% 3% 3%; } 
+footer>section:nth-child(1)>ul>li:first-child { font-weight: 700; padding-bottom: 5%; font-size: 1.3rem; } 
+footer>section:nth-child(1)>ul { padding-left: 5%; padding-right: 5%; display: inline-block; width: 90%; } 
+footer>section:nth-child(1)>ul>li { padding-top: 5%; } 
+
+.hover-underline-animation { display: inline-block; /* 텍스트 크기만큼만 블록을 차지하도록 설정 */
+ position: relative; color: rgb(69, 69, 69); } 
+ .hover-underline-animation::after { content: ""; position: absolute; width: 100%; /* 자동으로 텍스트 길이에 맞추려면 100% 대신 auto */
+ transform: scaleX(0); height: 1px; bottom: 0; left: 0; background-color: rgba(35, 35, 35, 0.5); transform-origin: bottom right; transition: transform 0.25s ease-out; margin-bottom: 0; } 
+ .hover-underline-animation:hover::after { transform: scaleX(1); transform-origin: bottom left; } 
+
+ /* footer>section:nth-child(2) {display: flex;align-items: center;justify-content: center;} */
+ footer>section:nth-child(2)>ul {display: flex; flex-wrap: wrap;}
+ footer>section:nth-child(2)>ul>li {padding: 5px 15px;}
+
+ @media screen and (max-width:600px) {
+    footer>section:nth-child(1){display: grid; grid-template-columns: 50% 50%;}
+ }
