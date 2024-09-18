@@ -22,7 +22,7 @@ nav>section:nth-child(3)>div { padding: 0 10px; }
  .pc-nav { display: none; } 
  .mobile-nav { display: block; } 
  .mobile-nav-container { display: flex; flex-direction: column; align-items: center; } 
- .bottom-row { display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 5%; } 
+ .bottom-row { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding-bottom: 5%; } 
  .bottom-row>div { padding: 3px 10px; } 
  }
 
