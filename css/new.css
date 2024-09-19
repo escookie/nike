@@ -1,6 +1,6 @@
 .new-text-slider{text-align: center; background-color: #f7f7f7; color: #3c3c3c;padding: 1% 0; margin-bottom: 1%; font-family: "Roboto";font-weight: 700;}
 
-.new { display: flex;} 
+.new { display: flex; padding-bottom: 5%;} 
 .new>section:nth-child(1){width: 15%; display: flex; flex-direction: column; padding-right: 5%;}
 .new>section:nth-child(2){width: 85%;}
 

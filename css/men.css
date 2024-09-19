@@ -1,0 +1,29 @@
+.men{padding: 1%;}
+
+.men>section:nth-child(1) img{width: 100%;}
+
+.men>section:nth-child(2){text-align: center; padding: 2% 0 4% 0;}
+.men>section:nth-child(2)>ul>li{padding: 5px 0;}
+.men>section:nth-child(2)>ul>li:nth-child(2){ font-family: roboto; font-size: 3rem; font-weight: 900}
+.men>section:nth-child(2)>ul button{margin-top: 15px;}
+
+.men>section:nth-child(3){display: flex; width: 100%;}
+.men>section:nth-child(3)>div{width: 50%;}
+.men>section:nth-child(3)>div img{width: 100%;}
+.men>section:nth-child(3)>div p{font-size: 1.4rem; font-weight: roboto; font-weight: 500;}
+
+.men>section:nth-child(4){text-align: center; padding: 3%;}
+.men>section:nth-child(4)>ul>li:nth-child(2),
+.men>section:nth-child(4)>ul>li:nth-child(3){ font-family: roboto; font-size: 3rem; font-weight: 900}
+.men>section:nth-child(4)>ul button{margin-top: 15px;}
+
+.men>section:nth-child(5){width: 100%;}
+.men>section:nth-child(5) img{width: 100%;}
+
+.men>section:nth-child(6){text-align: center; padding: 3%;}
+.men>section:nth-child(6)>ul>li:nth-child(1){ font-family: roboto; font-size: 3rem; font-weight: 900}
+.men>section:nth-child(6)>ul button{margin-top: 15px;}
+
+.men>section:nth-child(7){display: flex; width: 100%; padding-bottom: 2%;}
+.men>section:nth-child(7)>div{width: 33%;}
+.men>section:nth-child(7)>div img{width: 100%;}
